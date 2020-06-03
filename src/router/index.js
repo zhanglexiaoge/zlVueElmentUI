@@ -4,7 +4,8 @@ import login from '../views/login/Login.vue';
 import Home from '../views/Home.vue';
 import Welcome from '../views/WelCome.vue';
 import UserManage from '../views/userManage/UserManage.vue';
-
+import OrderList from '../views/oder/OrderList.vue';
+import OrderDeatil from '../views/userManage/UserDetail.vue';
 
 Vue.use(VueRouter);
 
@@ -29,9 +30,19 @@ const routes = [
 		 {
 		 	path: '/userlist',
 		 	component: UserManage, 
-		 }
+		 },
+		 {
+		 	path: '/orderlist',
+		 	component: OrderList, 
+		 },
+		 {
+			path: '/orderdetail',
+			name:'Orderdetail',
+			component: OrderDeatil,
+		},
 		],
-	}
+	},
+	
 	
   
 ];

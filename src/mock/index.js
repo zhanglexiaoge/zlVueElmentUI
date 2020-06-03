@@ -55,14 +55,14 @@ const getAllMenuData = function () {
 			},
 			{
 				icon:'iconfont icon-yidatong',
-				path:'/usermanage',
-				name:'订单列表',
+				path:'/ordermanagement',
+				name:'订单相关',
 				id:'3',
 				children:[
 					{
 						icon:'https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3241659229,3202296598&fm=26&gp=0.jpg',
-						path:'/chart',
-						name:'测试4',
+						path:'/orderlist',
+						name:'订单列表',
 						id:'24',
 					}
 				],
